@@ -6,7 +6,8 @@ from spinup.algos.tf1.sac import core
 from spinup.algos.tf1.sac.core import get_vars
 from spinup.utils.logx import EpochLogger
 
-
+#make some chages of SAC
+import math
 class ReplayBuffer:
     """
     A simple FIFO experience replay buffer for SAC agents.
